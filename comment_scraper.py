@@ -8,7 +8,7 @@ running = pd.DataFrame()
 site = 'homecreditph'
 owner = 'Home Credit'
 
-token = 'EAACmU0a4eqoBANu3ba3JUpFFi6r1FeKZCD1HfR5s9Wy9VETJ7k3ScUXZB9imgRhczzIJVh3m20OmjaNPxaTLPZAyH0AkR6iZB3QQO6zFDTYx0I1I0OjumpLMiBxlOFjdn8gRhlJ9eoeo5xUFbTj2nzTkLxppE5cZD' #FB Graph API access token
+token = #FB Graph API access token
 req = site + '?fields=posts.limit(10){comments{message,created_time,comments.limit(5)},message,created_time}'
 
 def process_dict(row):
